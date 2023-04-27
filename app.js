@@ -11,7 +11,7 @@ app.use(express.static("public"));
 // ------------------------database--------------------------------
 const mongoose = require("mongoose");
 
-const mongoAtlasUri =process.env.URI
+const mongoAtlasUri =process.env.URI;
 
 try {
   // Connect to the MongoDB cluster
