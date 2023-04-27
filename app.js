@@ -19,6 +19,7 @@ try {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
+  console.log("mongodb connected");
 } catch (e) {
   console.log("could not connect");
 }
