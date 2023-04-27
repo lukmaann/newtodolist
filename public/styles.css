@@ -1,0 +1,26 @@
+.addbtn{
+    margin-bottom: 34px;
+}
+
+input:checked+p{
+    text-decoration: line-through;
+
+}
+.item{
+    width: 90%;
+}
+.heading{
+    visibility:hidden;
+}
+@media only screen and (max-width: 600px) {
+    .heading{
+        visibility: visible;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .cardcointainer{
+        width: 90%;
+        height: 90vh;
+        margin:auto;
+    }
+  }
